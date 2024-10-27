@@ -9,3 +9,26 @@
 // 14
 // FizzBuzz
 // ...
+// Loops through numbers from 1 to 100
+for (let i = 1; i <= 100; i++) {
+    // Checks if divisible by 3 and 5
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } 
+
+    // Checks if divisible by 3
+    else if (i % 3 === 0) {
+      console.log("Fizz");
+    } 
+
+    // Check if divisible by 5
+    else if (i % 5 === 0) {
+      console.log("Buzz");
+    } 
+
+    // Outputs the number if it's not divisible by 3 or 5
+    else {
+      console.log(i);
+    }
+  }
+  
